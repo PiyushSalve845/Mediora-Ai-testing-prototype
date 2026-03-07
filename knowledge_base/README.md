@@ -1,0 +1,1 @@
+This folder will contain the drug knowledge database for Mediora Ai

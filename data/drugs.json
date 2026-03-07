@@ -1,0 +1,1089 @@
+{
+  "drugs": [
+    {
+      "id": "drug_001",
+      "brandNames": ["Tylenol", "Panadol", "Crocin", "Calpol"],
+      "genericName": "Paracetamol (Acetaminophen)",
+      "drugClass": "Analgesic / Antipyretic",
+      "description": "Paracetamol is a common pain reliever and fever reducer. It is one of the most widely used over-the-counter medications.",
+      "uses": [
+        "Relief of mild to moderate pain (headache, toothache, muscle pain)",
+        "Reduction of fever",
+        "Relief of cold and flu symptoms",
+        "Post-vaccination fever management"
+      ],
+      "dosage": {
+        "adults": "500mg to 1000mg every 4-6 hours as needed. Maximum 4000mg per day.",
+        "children": "10-15mg/kg body weight every 4-6 hours. Maximum 5 doses in 24 hours.",
+        "elderly": "Lower doses may be required. Consult healthcare provider."
+      },
+      "administration": [
+        "Can be taken with or without food",
+        "Swallow tablets whole with water",
+        "Do not crush extended-release tablets",
+        "Use the measuring device provided for liquid forms"
+      ],
+      "sideEffects": {
+        "common": ["Nausea", "Stomach pain"],
+        "uncommon": ["Allergic skin reactions", "Low blood pressure"],
+        "rare": ["Liver damage (with overdose)", "Blood disorders", "Severe skin reactions"]
+      },
+      "warnings": [
+        "Do not exceed recommended dose",
+        "Avoid alcohol while taking this medication",
+        "Check other medications for paracetamol content to avoid overdose",
+        "Seek immediate medical attention if overdose is suspected"
+      ],
+      "contraindications": [
+        "Known allergy to paracetamol",
+        "Severe liver disease",
+        "Severe kidney disease"
+      ],
+      "interactions": [
+        {
+          "drug": "Warfarin",
+          "severity": "moderate",
+          "description": "May increase the effect of warfarin, increasing bleeding risk"
+        },
+        {
+          "drug": "Alcohol",
+          "severity": "high",
+          "description": "Increases risk of liver damage"
+        },
+        {
+          "drug": "Isoniazid",
+          "severity": "moderate",
+          "description": "May increase risk of liver toxicity"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "If you miss a dose, take it as soon as you remember. If it's almost time for your next dose, skip the missed dose.",
+        "warning": "Do not take a double dose to make up for a missed one.",
+        "additionalInfo": "Paracetamol is usually taken as needed, so missing a scheduled dose is generally not critical."
+      },
+      "storage": "Store below 25°C in a dry place. Keep away from children.",
+      "pregnancy": "Generally considered safe during pregnancy when used as directed. Consult healthcare provider.",
+      "breastfeeding": "Small amounts pass into breast milk. Generally considered safe when used occasionally."
+    },
+    {
+      "id": "drug_002",
+      "brandNames": ["Advil", "Motrin", "Brufen", "Nurofen"],
+      "genericName": "Ibuprofen",
+      "drugClass": "Non-Steroidal Anti-Inflammatory Drug (NSAID)",
+      "description": "Ibuprofen is an NSAID used to reduce fever, pain, and inflammation. It works by blocking the production of prostaglandins.",
+      "uses": [
+        "Relief of mild to moderate pain",
+        "Reduction of fever",
+        "Relief of menstrual pain",
+        "Treatment of arthritis and joint pain",
+        "Reduction of inflammation"
+      ],
+      "dosage": {
+        "adults": "200mg to 400mg every 4-6 hours as needed. Maximum 1200mg per day (OTC) or 3200mg (prescription).",
+        "children": "5-10mg/kg body weight every 6-8 hours. Not recommended under 6 months.",
+        "elderly": "Use lowest effective dose. Increased risk of side effects."
+      },
+      "administration": [
+        "Take with food or milk to reduce stomach upset",
+        "Swallow tablets whole with a full glass of water",
+        "Do not lie down for at least 10 minutes after taking",
+        "Shake liquid suspension well before use"
+      ],
+      "sideEffects": {
+        "common": ["Stomach upset", "Nausea", "Dizziness", "Headache"],
+        "uncommon": ["Stomach ulcers", "Increased blood pressure", "Fluid retention"],
+        "rare": ["Severe allergic reactions", "Kidney problems", "Heart attack or stroke (with long-term use)"]
+      },
+      "warnings": [
+        "May increase risk of heart attack or stroke",
+        "Can cause stomach bleeding, especially in elderly",
+        "Avoid if you have a history of stomach ulcers",
+        "Do not use before or after heart bypass surgery"
+      ],
+      "contraindications": [
+        "Known allergy to ibuprofen or other NSAIDs",
+        "Active stomach ulcer or bleeding",
+        "Severe heart failure",
+        "Third trimester of pregnancy",
+        "Severe kidney or liver disease"
+      ],
+      "interactions": [
+        {
+          "drug": "Aspirin",
+          "severity": "high",
+          "description": "May reduce the cardioprotective effect of aspirin and increase bleeding risk"
+        },
+        {
+          "drug": "Warfarin",
+          "severity": "high",
+          "description": "Increases risk of bleeding"
+        },
+        {
+          "drug": "ACE Inhibitors",
+          "severity": "moderate",
+          "description": "May reduce the blood pressure lowering effect"
+        },
+        {
+          "drug": "Methotrexate",
+          "severity": "high",
+          "description": "May increase methotrexate toxicity"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If it's close to your next dose time, skip the missed dose.",
+        "warning": "Never take a double dose. Overdose can cause serious stomach and kidney problems.",
+        "additionalInfo": "If using for chronic conditions, try to take doses at evenly spaced intervals."
+      },
+      "storage": "Store at room temperature away from moisture and heat.",
+      "pregnancy": "Avoid during the third trimester. Use with caution in first and second trimesters.",
+      "breastfeeding": "Small amounts pass into breast milk. Generally considered safe for short-term use."
+    },
+    {
+      "id": "drug_003",
+      "brandNames": ["Amoxil", "Moxatag", "Trimox", "Novamox"],
+      "genericName": "Amoxicillin",
+      "drugClass": "Penicillin Antibiotic",
+      "description": "Amoxicillin is a penicillin-type antibiotic used to treat a wide variety of bacterial infections. It works by stopping the growth of bacteria.",
+      "uses": [
+        "Respiratory tract infections",
+        "Urinary tract infections",
+        "Skin infections",
+        "Ear infections (otitis media)",
+        "Dental infections",
+        "H. pylori eradication (with other drugs)"
+      ],
+      "dosage": {
+        "adults": "250mg to 500mg every 8 hours, or 500mg to 875mg every 12 hours depending on infection.",
+        "children": "20-40mg/kg/day divided into doses every 8-12 hours.",
+        "elderly": "Same as adults, but dose adjustment may be needed for kidney impairment."
+      },
+      "administration": [
+        "Can be taken with or without food",
+        "Take at evenly spaced intervals to maintain constant levels",
+        "Complete the full course even if feeling better",
+        "Shake liquid suspension well before measuring dose"
+      ],
+      "sideEffects": {
+        "common": ["Diarrhea", "Nausea", "Skin rash", "Vomiting"],
+        "uncommon": ["Oral or vaginal yeast infections", "Dizziness", "Sleep problems"],
+        "rare": ["Severe allergic reactions (anaphylaxis)", "Liver problems", "Seizures", "Blood disorders"]
+      },
+      "warnings": [
+        "Tell your doctor if you have penicillin or cephalosporin allergy",
+        "May cause severe allergic reactions in sensitive individuals",
+        "Can cause diarrhea, which may indicate a new infection",
+        "May reduce effectiveness of oral contraceptives"
+      ],
+      "contraindications": [
+        "Known allergy to penicillins",
+        "History of severe allergic reaction to any beta-lactam antibiotic",
+        "Infectious mononucleosis (increases rash risk)"
+      ],
+      "interactions": [
+        {
+          "drug": "Methotrexate",
+          "severity": "moderate",
+          "description": "May increase methotrexate levels and toxicity"
+        },
+        {
+          "drug": "Warfarin",
+          "severity": "moderate",
+          "description": "May increase the anticoagulant effect"
+        },
+        {
+          "drug": "Oral Contraceptives",
+          "severity": "low",
+          "description": "May reduce effectiveness of birth control pills"
+        },
+        {
+          "drug": "Allopurinol",
+          "severity": "low",
+          "description": "Increases risk of skin rash"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If it's almost time for the next dose, skip the missed dose.",
+        "warning": "Do not double the dose. Complete the full course of antibiotics as prescribed.",
+        "additionalInfo": "Missing doses or stopping early can lead to antibiotic resistance and treatment failure."
+      },
+      "storage": "Store capsules at room temperature. Refrigerate liquid suspension and discard after 14 days.",
+      "pregnancy": "Generally considered safe during pregnancy. Category B.",
+      "breastfeeding": "Passes into breast milk in small amounts. Generally considered compatible with breastfeeding."
+    },
+    {
+      "id": "drug_004",
+      "brandNames": ["Glucophage", "Fortamet", "Glumetza", "Riomet"],
+      "genericName": "Metformin",
+      "drugClass": "Biguanide / Oral Antidiabetic",
+      "description": "Metformin is the first-line medication for type 2 diabetes. It helps control blood sugar levels by decreasing glucose production in the liver and improving insulin sensitivity.",
+      "uses": [
+        "Type 2 diabetes mellitus management",
+        "Prediabetes prevention",
+        "Polycystic ovary syndrome (PCOS) - off-label",
+        "Weight management in diabetics"
+      ],
+      "dosage": {
+        "adults": "Start with 500mg once or twice daily with meals. May increase to maximum 2550mg/day in divided doses.",
+        "children": "For children 10 years and older: Start with 500mg twice daily. Maximum 2000mg/day.",
+        "elderly": "Start with lower doses. Monitor kidney function regularly."
+      },
+      "administration": [
+        "Take with meals to reduce stomach upset",
+        "Swallow extended-release tablets whole, do not crush or chew",
+        "Take at the same times each day for best results",
+        "Continue even if blood sugar is controlled"
+      ],
+      "sideEffects": {
+        "common": ["Nausea", "Diarrhea", "Stomach upset", "Metallic taste", "Loss of appetite"],
+        "uncommon": ["Vitamin B12 deficiency (long-term use)", "Weakness", "Muscle pain"],
+        "rare": ["Lactic acidosis (serious)", "Severe allergic reactions", "Low blood sugar (when combined with other diabetes medications)"]
+      },
+      "warnings": [
+        "Stop taking before procedures with contrast dye",
+        "Risk of lactic acidosis, especially with kidney problems or alcohol use",
+        "Monitor kidney function regularly",
+        "May cause vitamin B12 deficiency with long-term use"
+      ],
+      "contraindications": [
+        "Severe kidney disease (eGFR <30)",
+        "Metabolic acidosis or diabetic ketoacidosis",
+        "Acute or chronic severe liver disease",
+        "History of lactic acidosis",
+        "Severe dehydration"
+      ],
+      "interactions": [
+        {
+          "drug": "Alcohol",
+          "severity": "high",
+          "description": "Increases risk of lactic acidosis and low blood sugar"
+        },
+        {
+          "drug": "Contrast Dye",
+          "severity": "high",
+          "description": "May cause kidney damage; stop metformin before and after procedures"
+        },
+        {
+          "drug": "Insulin",
+          "severity": "moderate",
+          "description": "Increased risk of low blood sugar"
+        },
+        {
+          "drug": "Diuretics",
+          "severity": "moderate",
+          "description": "May affect kidney function and increase lactic acidosis risk"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember, unless it's close to your next scheduled dose.",
+        "warning": "Do not take a double dose. Monitor your blood sugar levels more frequently.",
+        "additionalInfo": "If you frequently miss doses, consider setting daily reminders. Consistent dosing is important for blood sugar control."
+      },
+      "storage": "Store at room temperature away from moisture and heat.",
+      "pregnancy": "May be used in pregnancy for gestational diabetes under medical supervision.",
+      "breastfeeding": "Passes into breast milk in small amounts. Generally considered safe."
+    },
+    {
+      "id": "drug_005",
+      "brandNames": ["Lipitor", "Atorva", "Torvast", "Sortis"],
+      "genericName": "Atorvastatin",
+      "drugClass": "Statin / HMG-CoA Reductase Inhibitor",
+      "description": "Atorvastatin is a statin medication used to lower cholesterol and reduce the risk of heart disease. It works by blocking an enzyme needed to make cholesterol in the liver.",
+      "uses": [
+        "High cholesterol (hyperlipidemia)",
+        "Prevention of cardiovascular disease",
+        "Reduction of heart attack and stroke risk",
+        "Treatment of familial hypercholesterolemia"
+      ],
+      "dosage": {
+        "adults": "Start with 10-20mg once daily. May increase to maximum 80mg/day based on response.",
+        "children": "For children 10-17 years with familial hypercholesterolemia: 10-20mg once daily.",
+        "elderly": "No specific dose adjustment, but use caution."
+      },
+      "administration": [
+        "Can be taken with or without food",
+        "Take at the same time each day, preferably in the evening",
+        "Swallow tablets whole",
+        "Continue taking even if cholesterol improves"
+      ],
+      "sideEffects": {
+        "common": ["Muscle pain or weakness", "Joint pain", "Diarrhea", "Nausea", "Cold symptoms"],
+        "uncommon": ["Elevated liver enzymes", "Digestive problems", "Memory problems", "Confusion"],
+        "rare": ["Rhabdomyolysis (muscle breakdown)", "Liver damage", "Type 2 diabetes", "Tendon rupture"]
+      },
+      "warnings": [
+        "Report unexplained muscle pain or weakness immediately",
+        "Avoid grapefruit juice (increases drug levels)",
+        "Regular liver function tests may be needed",
+        "May slightly increase blood sugar levels"
+      ],
+      "contraindications": [
+        "Active liver disease or unexplained elevated liver enzymes",
+        "Pregnancy and breastfeeding",
+        "Known allergy to atorvastatin"
+      ],
+      "interactions": [
+        {
+          "drug": "Grapefruit Juice",
+          "severity": "moderate",
+          "description": "Increases atorvastatin levels, raising side effect risk"
+        },
+        {
+          "drug": "Warfarin",
+          "severity": "moderate",
+          "description": "May increase bleeding risk"
+        },
+        {
+          "drug": "Cyclosporine",
+          "severity": "high",
+          "description": "Significantly increases atorvastatin levels"
+        },
+        {
+          "drug": "Fibrates",
+          "severity": "high",
+          "description": "Increased risk of muscle problems"
+        },
+        {
+          "drug": "Erythromycin",
+          "severity": "moderate",
+          "description": "May increase atorvastatin levels"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If it's almost time for your next dose, skip the missed dose.",
+        "warning": "Do not take a double dose. One missed dose will not significantly affect your cholesterol control.",
+        "additionalInfo": "Try to take your statin at the same time every day. Evening dosing may be slightly more effective."
+      },
+      "storage": "Store at room temperature away from light and moisture.",
+      "pregnancy": "Contraindicated in pregnancy. May cause fetal harm.",
+      "breastfeeding": "Not recommended. May pass into breast milk."
+    },
+    {
+      "id": "drug_006",
+      "brandNames": ["Norvasc", "Amlodac", "Amlopress", "Istin"],
+      "genericName": "Amlodipine",
+      "drugClass": "Calcium Channel Blocker",
+      "description": "Amlodipine is a calcium channel blocker used to treat high blood pressure and chest pain (angina). It works by relaxing blood vessels, allowing blood to flow more easily.",
+      "uses": [
+        "High blood pressure (hypertension)",
+        "Chest pain (angina pectoris)",
+        "Coronary artery disease",
+        "Prevention of heart attack and stroke"
+      ],
+      "dosage": {
+        "adults": "Start with 5mg once daily. May increase to 10mg once daily if needed.",
+        "children": "For children 6-17 years: 2.5-5mg once daily.",
+        "elderly": "Start with 2.5mg once daily. Increase slowly."
+      },
+      "administration": [
+        "Can be taken with or without food",
+        "Take at the same time each day",
+        "Swallow tablets whole with water",
+        "Continue taking even if feeling well"
+      ],
+      "sideEffects": {
+        "common": ["Swelling of ankles/feet", "Dizziness", "Flushing", "Headache", "Fatigue"],
+        "uncommon": ["Nausea", "Stomach pain", "Palpitations", "Muscle cramps"],
+        "rare": ["Severe allergic reaction", "Jaundice", "Chest pain worsening", "Gum overgrowth"]
+      },
+      "warnings": [
+        "May cause dizziness; be careful when driving",
+        "Do not stop suddenly without consulting doctor",
+        "Report swelling that worsens or breathing problems",
+        "May take 1-2 weeks for full effect"
+      ],
+      "contraindications": [
+        "Known allergy to amlodipine or other calcium channel blockers",
+        "Severe low blood pressure",
+        "Cardiogenic shock",
+        "Unstable angina (unless other medications are used)"
+      ],
+      "interactions": [
+        {
+          "drug": "Simvastatin",
+          "severity": "moderate",
+          "description": "May increase simvastatin levels; limit simvastatin to 20mg"
+        },
+        {
+          "drug": "Cyclosporine",
+          "severity": "moderate",
+          "description": "May increase cyclosporine levels"
+        },
+        {
+          "drug": "Grapefruit Juice",
+          "severity": "low",
+          "description": "May slightly increase amlodipine levels"
+        },
+        {
+          "drug": "Beta Blockers",
+          "severity": "moderate",
+          "description": "May cause excessive blood pressure lowering"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If it's almost time for your next dose, skip the missed dose.",
+        "warning": "Do not take a double dose. If you miss doses frequently, your blood pressure may not be controlled.",
+        "additionalInfo": "Set a daily reminder to take your medication. Consistent dosing is important for blood pressure control."
+      },
+      "storage": "Store at room temperature away from light and moisture.",
+      "pregnancy": "Use only if clearly needed. Discuss risks with your doctor.",
+      "breastfeeding": "Passes into breast milk. Use with caution."
+    },
+    {
+      "id": "drug_007",
+      "brandNames": ["Prilosec", "Losec", "Omez", "Omecid"],
+      "genericName": "Omeprazole",
+      "drugClass": "Proton Pump Inhibitor (PPI)",
+      "description": "Omeprazole is a proton pump inhibitor that reduces stomach acid production. It is used to treat acid reflux, ulcers, and related conditions.",
+      "uses": [
+        "Gastroesophageal reflux disease (GERD)",
+        "Stomach and duodenal ulcers",
+        "H. pylori eradication (with antibiotics)",
+        "Zollinger-Ellison syndrome",
+        "Prevention of NSAID-induced ulcers"
+      ],
+      "dosage": {
+        "adults": "20mg once daily for most conditions. May increase to 40mg daily for severe cases.",
+        "children": "Weight-based dosing: 5-10mg for children under 20kg, 10-20mg for children over 20kg.",
+        "elderly": "No dose adjustment usually needed."
+      },
+      "administration": [
+        "Take 30-60 minutes before a meal, preferably breakfast",
+        "Swallow capsules whole, do not crush or chew",
+        "For difficulty swallowing, capsules can be opened and contents mixed with applesauce",
+        "Complete the full course as prescribed"
+      ],
+      "sideEffects": {
+        "common": ["Headache", "Stomach pain", "Nausea", "Diarrhea", "Flatulence"],
+        "uncommon": ["Vitamin B12 deficiency", "Low magnesium", "Dizziness", "Skin rash"],
+        "rare": ["Kidney problems", "Bone fractures (long-term use)", "C. difficile infection", "Severe allergic reactions"]
+      },
+      "warnings": [
+        "Long-term use may increase risk of bone fractures",
+        "May cause vitamin B12 and magnesium deficiency",
+        "Can mask symptoms of stomach cancer",
+        "Increased risk of gut infections with prolonged use"
+      ],
+      "contraindications": [
+        "Known allergy to omeprazole or other PPIs",
+        "Use with rilpivirine (HIV medication)"
+      ],
+      "interactions": [
+        {
+          "drug": "Clopidogrel",
+          "severity": "high",
+          "description": "May reduce the effectiveness of clopidogrel"
+        },
+        {
+          "drug": "Methotrexate",
+          "severity": "moderate",
+          "description": "May increase methotrexate levels"
+        },
+        {
+          "drug": "Warfarin",
+          "severity": "moderate",
+          "description": "May increase bleeding risk"
+        },
+        {
+          "drug": "Iron Supplements",
+          "severity": "low",
+          "description": "Reduced acid may decrease iron absorption"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember, unless it's almost time for your next dose.",
+        "warning": "Do not take a double dose. If you miss a dose, your symptoms may temporarily worsen.",
+        "additionalInfo": "For best results, take omeprazole at the same time each day, preferably in the morning before breakfast."
+      },
+      "storage": "Store at room temperature away from moisture. Keep capsules in original packaging.",
+      "pregnancy": "Use only if clearly needed. Limited data available.",
+      "breastfeeding": "Passes into breast milk. Use with caution."
+    },
+    {
+      "id": "drug_008",
+      "brandNames": ["Bayer Aspirin", "Ecosprin", "Disprin", "Aspro"],
+      "genericName": "Aspirin (Acetylsalicylic Acid)",
+      "drugClass": "NSAID / Antiplatelet Agent",
+      "description": "Aspirin is a versatile medication used for pain relief, fever reduction, and prevention of blood clots. Low-dose aspirin is commonly used to prevent heart attacks and strokes.",
+      "uses": [
+        "Pain relief (headache, muscle pain, toothache)",
+        "Fever reduction",
+        "Prevention of heart attacks and strokes",
+        "Prevention of blood clots after heart procedures",
+        "Treatment of inflammatory conditions"
+      ],
+      "dosage": {
+        "adults": "For pain/fever: 325-650mg every 4-6 hours (max 4g/day). For heart protection: 75-100mg once daily.",
+        "children": "Not recommended for children under 16 due to Reye's syndrome risk.",
+        "elderly": "Use lower doses. Increased risk of bleeding."
+      },
+      "administration": [
+        "Take with food or milk to reduce stomach irritation",
+        "Take enteric-coated tablets whole, do not crush",
+        "For heart protection, take at the same time daily",
+        "Drink plenty of water with each dose"
+      ],
+      "sideEffects": {
+        "common": ["Stomach upset", "Heartburn", "Nausea", "Easy bruising"],
+        "uncommon": ["Stomach ulcers", "Tinnitus (ringing in ears)", "Dizziness"],
+        "rare": ["Severe allergic reaction", "Stomach bleeding", "Kidney problems", "Reye's syndrome in children"]
+      },
+      "warnings": [
+        "Do not give to children with viral infections (Reye's syndrome risk)",
+        "Stop taking 7 days before surgery",
+        "May cause serious stomach bleeding",
+        "Use with caution if you have asthma or nasal polyps"
+      ],
+      "contraindications": [
+        "Known allergy to aspirin or NSAIDs",
+        "Active stomach ulcer or bleeding",
+        "Bleeding disorders",
+        "Severe kidney or liver disease",
+        "Third trimester of pregnancy",
+        "Children under 16 with viral illness"
+      ],
+      "interactions": [
+        {
+          "drug": "Ibuprofen",
+          "severity": "high",
+          "description": "May reduce aspirin's cardioprotective effect and increase bleeding risk"
+        },
+        {
+          "drug": "Warfarin",
+          "severity": "high",
+          "description": "Significantly increases bleeding risk"
+        },
+        {
+          "drug": "Methotrexate",
+          "severity": "high",
+          "description": "May increase methotrexate toxicity"
+        },
+        {
+          "drug": "ACE Inhibitors",
+          "severity": "moderate",
+          "description": "May reduce blood pressure lowering effect"
+        },
+        {
+          "drug": "Alcohol",
+          "severity": "high",
+          "description": "Increases risk of stomach bleeding"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "For pain relief: Take when needed. For heart protection: Take as soon as you remember, then resume normal schedule.",
+        "warning": "Do not double the dose. If you miss your daily heart protection dose, just take the next day's dose as normal.",
+        "additionalInfo": "If using for heart protection, consistency is important. Try to take it at the same time each day."
+      },
+      "storage": "Store at room temperature away from moisture and heat.",
+      "pregnancy": "Avoid during third trimester. Use with caution earlier. Discuss with doctor.",
+      "breastfeeding": "Passes into breast milk. Occasional use is generally safe."
+    },
+    {
+      "id": "drug_009",
+      "brandNames": ["Zyrtec", "Reactine", "Cetrizet", "Alerid"],
+      "genericName": "Cetirizine",
+      "drugClass": "Second-Generation Antihistamine",
+      "description": "Cetirizine is a non-drowsy antihistamine used to relieve allergy symptoms. It works by blocking histamine, a substance your body makes during an allergic reaction.",
+      "uses": [
+        "Seasonal allergies (hay fever)",
+        "Year-round allergies",
+        "Chronic urticaria (hives)",
+        "Allergic skin conditions",
+        "Itchy, watery eyes"
+      ],
+      "dosage": {
+        "adults": "10mg once daily. Can be taken in the morning or evening.",
+        "children": "2-5 years: 2.5-5mg daily. 6+ years: 5-10mg daily.",
+        "elderly": "5mg once daily, especially if kidney function is reduced."
+      },
+      "administration": [
+        "Can be taken with or without food",
+        "May be taken morning or evening",
+        "Swallow tablets whole with water",
+        "Use measuring device for liquid forms"
+      ],
+      "sideEffects": {
+        "common": ["Drowsiness", "Dry mouth", "Fatigue", "Headache", "Sore throat"],
+        "uncommon": ["Nausea", "Dizziness", "Stomach pain", "Diarrhea"],
+        "rare": ["Severe allergic reaction", "Liver problems", "Irregular heartbeat", "Seizures"]
+      },
+      "warnings": [
+        "May cause drowsiness in some people",
+        "Use caution when driving or operating machinery",
+        "Avoid alcohol as it may increase drowsiness",
+        "Inform doctor if you have kidney or liver problems"
+      ],
+      "contraindications": [
+        "Known allergy to cetirizine or hydroxyzine",
+        "Severe kidney disease (without dose adjustment)",
+        "End-stage kidney disease requiring dialysis"
+      ],
+      "interactions": [
+        {
+          "drug": "Alcohol",
+          "severity": "moderate",
+          "description": "May increase drowsiness and impair mental alertness"
+        },
+        {
+          "drug": "CNS Depressants",
+          "severity": "moderate",
+          "description": "May increase sedation effects"
+        },
+        {
+          "drug": "Theophylline",
+          "severity": "low",
+          "description": "May slightly decrease cetirizine clearance"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If it's almost time for your next dose, skip the missed dose.",
+        "warning": "Do not take a double dose. Missing a dose may allow allergy symptoms to return.",
+        "additionalInfo": "For best allergy control, take cetirizine at the same time each day."
+      },
+      "storage": "Store at room temperature away from moisture and heat.",
+      "pregnancy": "Use only if clearly needed. Discuss with your doctor.",
+      "breastfeeding": "Passes into breast milk. Use with caution."
+    },
+    {
+      "id": "drug_010",
+      "brandNames": ["Cozaar", "Losacar", "Losartan", "Repace"],
+      "genericName": "Losartan",
+      "drugClass": "Angiotensin II Receptor Blocker (ARB)",
+      "description": "Losartan is an ARB used to treat high blood pressure and protect the kidneys in people with type 2 diabetes. It works by blocking the action of angiotensin II, which narrows blood vessels.",
+      "uses": [
+        "High blood pressure (hypertension)",
+        "Diabetic nephropathy (kidney protection)",
+        "Stroke prevention in patients with heart enlargement",
+        "Heart failure (when ACE inhibitors are not tolerated)"
+      ],
+      "dosage": {
+        "adults": "Start with 50mg once daily. May increase to 100mg daily. Range: 25-100mg.",
+        "children": "For children 6+ years: 0.7mg/kg once daily, up to 50mg.",
+        "elderly": "Start with lower dose (25mg). Adjust based on response."
+      },
+      "administration": [
+        "Can be taken with or without food",
+        "Take at the same time each day",
+        "Swallow tablets whole with water",
+        "Continue taking even if blood pressure is controlled"
+      ],
+      "sideEffects": {
+        "common": ["Dizziness", "Upper respiratory infection", "Stuffy nose", "Back pain", "Fatigue"],
+        "uncommon": ["Diarrhea", "Muscle cramps", "Cough", "Low blood pressure"],
+        "rare": ["Angioedema (swelling of face/throat)", "Liver problems", "High potassium", "Kidney problems"]
+      },
+      "warnings": [
+        "Do not use during pregnancy (can harm the baby)",
+        "May cause dizziness; be careful when standing up",
+        "Monitor potassium levels, especially with kidney disease",
+        "Report any swelling of face, lips, or throat immediately"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Known allergy to losartan",
+        "Use with aliskiren in patients with diabetes",
+        "Severe liver disease"
+      ],
+      "interactions": [
+        {
+          "drug": "Potassium Supplements",
+          "severity": "high",
+          "description": "May cause dangerously high potassium levels"
+        },
+        {
+          "drug": "NSAIDs",
+          "severity": "moderate",
+          "description": "May reduce blood pressure lowering effect and affect kidney function"
+        },
+        {
+          "drug": "Lithium",
+          "severity": "moderate",
+          "description": "May increase lithium levels and toxicity"
+        },
+        {
+          "drug": "ACE Inhibitors",
+          "severity": "high",
+          "description": "Dual blockade increases risk of low blood pressure and kidney problems"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If it's close to your next dose, skip the missed dose.",
+        "warning": "Do not take a double dose. Missing doses can cause your blood pressure to increase.",
+        "additionalInfo": "Consistent daily dosing is important. Set a reminder if you frequently miss doses."
+      },
+      "storage": "Store at room temperature away from moisture and heat.",
+      "pregnancy": "Contraindicated. Can cause fetal harm, especially in second and third trimesters.",
+      "breastfeeding": "Not known if it passes into breast milk. Use with caution."
+    },
+    {
+      "id": "drug_011",
+      "brandNames": ["Aldactone", "Spiractin", "Spironol", "CaroSpir"],
+      "genericName": "Spironolactone",
+      "drugClass": "Potassium-Sparing Diuretic / Aldosterone Antagonist",
+      "description": "Spironolactone is a potassium-sparing diuretic that helps remove excess fluid from the body while preserving potassium. It is used for heart failure, high blood pressure, and conditions with excess aldosterone.",
+      "uses": [
+        "Heart failure",
+        "High blood pressure (hypertension)",
+        "Edema (fluid retention)",
+        "Primary hyperaldosteronism",
+        "Polycystic ovary syndrome (PCOS)",
+        "Acne and hirsutism in women"
+      ],
+      "dosage": {
+        "adults": "25-200mg daily in single or divided doses, depending on condition.",
+        "children": "1-3mg/kg/day in divided doses.",
+        "elderly": "Start with low doses. Monitor potassium closely."
+      },
+      "administration": [
+        "Take with food to improve absorption and reduce stomach upset",
+        "Take in the morning to avoid nighttime urination",
+        "Take at consistent times each day",
+        "Swallow tablets whole"
+      ],
+      "sideEffects": {
+        "common": ["Increased urination", "Dizziness", "Headache", "Stomach upset", "Breast tenderness"],
+        "uncommon": ["Menstrual irregularities", "Erectile dysfunction", "Drowsiness", "Rash"],
+        "rare": ["High potassium (hyperkalemia)", "Severe allergic reaction", "Liver problems", "Agranulocytosis"]
+      },
+      "warnings": [
+        "Monitor potassium levels regularly",
+        "Avoid potassium supplements and potassium-rich foods",
+        "May cause breast enlargement in men",
+        "Use with caution if you have kidney problems"
+      ],
+      "contraindications": [
+        "High potassium levels (hyperkalemia)",
+        "Addison's disease",
+        "Severe kidney failure",
+        "Known allergy to spironolactone"
+      ],
+      "interactions": [
+        {
+          "drug": "ACE Inhibitors",
+          "severity": "high",
+          "description": "Increased risk of high potassium levels"
+        },
+        {
+          "drug": "Potassium Supplements",
+          "severity": "high",
+          "description": "May cause dangerous high potassium levels"
+        },
+        {
+          "drug": "Digoxin",
+          "severity": "moderate",
+          "description": "May increase digoxin levels"
+        },
+        {
+          "drug": "NSAIDs",
+          "severity": "moderate",
+          "description": "May reduce the diuretic effect"
+        },
+        {
+          "drug": "Lithium",
+          "severity": "moderate",
+          "description": "May alter lithium levels"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember, unless it's close to your next scheduled dose.",
+        "warning": "Do not double the dose. Skipping doses may cause fluid retention to return.",
+        "additionalInfo": "If taking once daily, take in the morning. If you miss the morning dose, you may take it later but avoid taking it too close to bedtime."
+      },
+      "storage": "Store at room temperature away from light and moisture.",
+      "pregnancy": "Avoid during pregnancy. May cause harm to male fetus.",
+      "breastfeeding": "Active metabolite passes into breast milk. Use with caution."
+    },
+    {
+      "id": "drug_012",
+      "brandNames": ["Synthroid", "Levoxyl", "Eltroxin", "Thyronorm"],
+      "genericName": "Levothyroxine",
+      "drugClass": "Thyroid Hormone",
+      "description": "Levothyroxine is a synthetic thyroid hormone used to treat hypothyroidism (underactive thyroid). It replaces the hormone that your thyroid gland cannot produce enough of.",
+      "uses": [
+        "Hypothyroidism (underactive thyroid)",
+        "Thyroid cancer (after surgery)",
+        "Goiter (enlarged thyroid)",
+        "Myxedema coma (emergency treatment)"
+      ],
+      "dosage": {
+        "adults": "Start with 25-50mcg daily. Adjust every 6-8 weeks based on TSH levels. Usual dose: 100-200mcg daily.",
+        "children": "Weight and age-based dosing. Newborns: 10-15mcg/kg/day.",
+        "elderly": "Start with very low dose (12.5-25mcg). Increase slowly."
+      },
+      "administration": [
+        "Take on an empty stomach, 30-60 minutes before breakfast",
+        "Take at the same time each day for consistent levels",
+        "Do not take with calcium or iron supplements (wait 4 hours)",
+        "Do not switch brands without consulting your doctor"
+      ],
+      "sideEffects": {
+        "common": ["Usually none when properly dosed"],
+        "uncommon": ["Hair loss (temporary)", "Headache", "Nervousness"],
+        "rare": ["Chest pain", "Irregular heartbeat", "Seizures", "Osteoporosis (if overdosed long-term)"],
+        "overdose_signs": ["Rapid heartbeat", "Tremors", "Weight loss", "Sweating", "Anxiety"]
+      },
+      "warnings": [
+        "Do not use for weight loss (dangerous at high doses)",
+        "Regular blood tests (TSH) are essential",
+        "Notify doctor of any heart disease before starting",
+        "Consistent daily dosing is crucial"
+      ],
+      "contraindications": [
+        "Untreated adrenal insufficiency",
+        "Acute heart attack",
+        "Thyrotoxicosis (overactive thyroid)",
+        "Known allergy to levothyroxine"
+      ],
+      "interactions": [
+        {
+          "drug": "Calcium Supplements",
+          "severity": "moderate",
+          "description": "Reduces absorption. Take 4 hours apart."
+        },
+        {
+          "drug": "Iron Supplements",
+          "severity": "moderate",
+          "description": "Reduces absorption. Take 4 hours apart."
+        },
+        {
+          "drug": "Antacids",
+          "severity": "moderate",
+          "description": "May reduce absorption. Take 4 hours apart."
+        },
+        {
+          "drug": "Warfarin",
+          "severity": "moderate",
+          "description": "May increase warfarin effect and bleeding risk"
+        },
+        {
+          "drug": "Diabetes Medications",
+          "severity": "moderate",
+          "description": "May require dose adjustment of diabetes medications"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If you remember at bedtime, take it then.",
+        "warning": "Do not take a double dose. If you miss several doses, contact your doctor.",
+        "additionalInfo": "Levothyroxine has a long half-life, so missing occasional doses won't cause immediate problems, but consistent daily dosing is important for stable thyroid levels."
+      },
+      "storage": "Store at room temperature away from light, heat, and moisture.",
+      "pregnancy": "Safe and necessary during pregnancy. Dose may need adjustment.",
+      "breastfeeding": "Small amounts pass into breast milk. Safe to use."
+    },
+    {
+      "id": "drug_013",
+      "brandNames": ["Ventolin", "ProAir", "Proventil", "Asthalin"],
+      "genericName": "Salbutamol (Albuterol)",
+      "drugClass": "Short-Acting Beta-2 Agonist Bronchodilator",
+      "description": "Salbutamol is a fast-acting bronchodilator used to relieve asthma symptoms and prevent exercise-induced bronchospasm. It works by relaxing the muscles in the airways.",
+      "uses": [
+        "Acute asthma relief (rescue inhaler)",
+        "Chronic obstructive pulmonary disease (COPD)",
+        "Exercise-induced bronchospasm prevention",
+        "Acute bronchospasm relief"
+      ],
+      "dosage": {
+        "inhaler": "1-2 puffs every 4-6 hours as needed. For acute attacks: 2-4 puffs, may repeat after 20 minutes.",
+        "nebulizer": "2.5-5mg every 4-6 hours as needed.",
+        "children": "Same as adults for inhaler. Nebulizer: 2.5mg for children under 15kg."
+      },
+      "administration": [
+        "Shake inhaler well before each use",
+        "Breathe out fully before inhaling medication",
+        "Hold breath for 10 seconds after inhaling",
+        "Wait 1 minute between puffs if taking more than one"
+      ],
+      "sideEffects": {
+        "common": ["Tremor", "Headache", "Rapid heartbeat", "Nervousness", "Throat irritation"],
+        "uncommon": ["Muscle cramps", "Dizziness", "Sleep problems", "Nausea"],
+        "rare": ["Paradoxical bronchospasm", "Irregular heartbeat", "Low potassium", "Allergic reactions"]
+      },
+      "warnings": [
+        "Do not exceed recommended dose",
+        "If you need your inhaler more often, see your doctor",
+        "May cause low potassium with high doses",
+        "Use with caution if you have heart disease or high blood pressure"
+      ],
+      "contraindications": [
+        "Known allergy to salbutamol",
+        "Severe heart rhythm problems (relative)"
+      ],
+      "interactions": [
+        {
+          "drug": "Beta Blockers",
+          "severity": "high",
+          "description": "May reduce effectiveness of salbutamol and worsen asthma"
+        },
+        {
+          "drug": "Diuretics",
+          "severity": "moderate",
+          "description": "May increase risk of low potassium"
+        },
+        {
+          "drug": "Other Bronchodilators",
+          "severity": "moderate",
+          "description": "May increase side effects when used together"
+        },
+        {
+          "drug": "MAO Inhibitors",
+          "severity": "moderate",
+          "description": "May increase cardiovascular effects"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Salbutamol is usually used as needed for symptoms, not on a fixed schedule.",
+        "warning": "Do not take extra doses to make up for missed ones. Use only when you have breathing symptoms.",
+        "additionalInfo": "Always carry your rescue inhaler with you. Check expiration date regularly and replace as needed."
+      },
+      "storage": "Store at room temperature. Keep away from heat and open flame. Do not puncture canister.",
+      "pregnancy": "Use when benefit outweighs risk. Generally considered safe.",
+      "breastfeeding": "Likely safe. Limited data available."
+    },
+    {
+      "id": "drug_014",
+      "brandNames": ["Protonix", "Pantop", "Pan", "Pantocid"],
+      "genericName": "Pantoprazole",
+      "drugClass": "Proton Pump Inhibitor (PPI)",
+      "description": "Pantoprazole is a proton pump inhibitor similar to omeprazole. It reduces stomach acid production and is used for acid-related digestive disorders.",
+      "uses": [
+        "Gastroesophageal reflux disease (GERD)",
+        "Erosive esophagitis",
+        "Zollinger-Ellison syndrome",
+        "Prevention of stress ulcers in critically ill patients",
+        "H. pylori eradication (with antibiotics)"
+      ],
+      "dosage": {
+        "adults": "40mg once daily for 4-8 weeks. May continue at 20-40mg for maintenance.",
+        "children": "For children 5+ years: Weight-based dosing. 15-40kg: 20mg daily. >40kg: 40mg daily.",
+        "elderly": "No dose adjustment usually needed."
+      },
+      "administration": [
+        "Take 30-60 minutes before a meal",
+        "Swallow tablets whole, do not crush or chew",
+        "Can be taken with or without food, but before meals is preferred",
+        "For IV use, follow healthcare provider instructions"
+      ],
+      "sideEffects": {
+        "common": ["Headache", "Diarrhea", "Nausea", "Abdominal pain", "Flatulence"],
+        "uncommon": ["Dizziness", "Joint pain", "Rash", "Constipation"],
+        "rare": ["C. difficile infection", "Bone fractures (long-term)", "Low magnesium", "Kidney problems"]
+      },
+      "warnings": [
+        "Long-term use may increase fracture risk",
+        "May cause low magnesium with prolonged use",
+        "Can mask symptoms of stomach cancer",
+        "May increase risk of C. difficile infection"
+      ],
+      "contraindications": [
+        "Known allergy to pantoprazole or other PPIs",
+        "Concurrent use with rilpivirine"
+      ],
+      "interactions": [
+        {
+          "drug": "Methotrexate",
+          "severity": "moderate",
+          "description": "May increase methotrexate levels"
+        },
+        {
+          "drug": "Warfarin",
+          "severity": "moderate",
+          "description": "May increase INR and bleeding risk"
+        },
+        {
+          "drug": "Clopidogrel",
+          "severity": "moderate",
+          "description": "Less interaction than with omeprazole, but monitor"
+        },
+        {
+          "drug": "Atazanavir",
+          "severity": "high",
+          "description": "Significantly reduces atazanavir absorption"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember, unless it's almost time for your next dose.",
+        "warning": "Do not take a double dose.",
+        "additionalInfo": "For best results, take pantoprazole at the same time each day, ideally in the morning before breakfast."
+      },
+      "storage": "Store at room temperature away from moisture and heat.",
+      "pregnancy": "Use only if clearly needed. Limited human data.",
+      "breastfeeding": "Passes into breast milk. Weigh benefits and risks."
+    },
+    {
+      "id": "drug_015",
+      "brandNames": ["Zithromax", "Z-Pack", "Azithral", "Azee"],
+      "genericName": "Azithromycin",
+      "drugClass": "Macrolide Antibiotic",
+      "description": "Azithromycin is a macrolide antibiotic used to treat various bacterial infections. It works by stopping the growth of bacteria and is known for its convenient short-course dosing.",
+      "uses": [
+        "Respiratory tract infections",
+        "Skin and soft tissue infections",
+        "Ear infections",
+        "Sexually transmitted infections (chlamydia, gonorrhea)",
+        "Traveler's diarrhea",
+        "MAC infection prevention in HIV patients"
+      ],
+      "dosage": {
+        "adults": "Varies by indication. Common: 500mg day 1, then 250mg days 2-5 (Z-Pack). Or 500mg daily for 3 days.",
+        "children": "10mg/kg on day 1, then 5mg/kg on days 2-5. Or 10mg/kg once daily for 3 days.",
+        "elderly": "Same as adults. No dose adjustment needed."
+      },
+      "administration": [
+        "Can be taken with or without food",
+        "Take at the same time each day",
+        "Swallow tablets whole with water",
+        "Complete the full course even if feeling better"
+      ],
+      "sideEffects": {
+        "common": ["Diarrhea", "Nausea", "Abdominal pain", "Vomiting", "Headache"],
+        "uncommon": ["Dizziness", "Fatigue", "Skin rash", "Altered taste"],
+        "rare": ["Severe allergic reaction", "Liver problems", "QT prolongation (heart rhythm)", "Hearing loss", "C. difficile infection"]
+      },
+      "warnings": [
+        "May cause abnormal heart rhythm in certain patients",
+        "Tell your doctor if you have heart problems or take heart medications",
+        "May cause diarrhea that could indicate a new infection",
+        "Complete the full course to prevent antibiotic resistance"
+      ],
+      "contraindications": [
+        "Known allergy to azithromycin or other macrolides",
+        "History of liver problems from azithromycin",
+        "Myasthenia gravis (use with extreme caution)"
+      ],
+      "interactions": [
+        {
+          "drug": "Warfarin",
+          "severity": "moderate",
+          "description": "May increase warfarin effect and bleeding risk"
+        },
+        {
+          "drug": "Antacids",
+          "severity": "low",
+          "description": "May reduce azithromycin absorption. Take 2 hours apart."
+        },
+        {
+          "drug": "QT-Prolonging Drugs",
+          "severity": "high",
+          "description": "Increased risk of dangerous heart rhythm problems"
+        },
+        {
+          "drug": "Digoxin",
+          "severity": "moderate",
+          "description": "May increase digoxin levels"
+        },
+        {
+          "drug": "Cyclosporine",
+          "severity": "moderate",
+          "description": "May increase cyclosporine levels"
+        }
+      ],
+      "missedDoseGuidance": {
+        "instruction": "Take the missed dose as soon as you remember. If it's almost time for your next dose, skip the missed dose and continue with your regular schedule.",
+        "warning": "Do not take a double dose. Complete the full course of antibiotics.",
+        "additionalInfo": "Missing doses can reduce effectiveness and contribute to antibiotic resistance. Try to take all doses on time."
+      },
+      "storage": "Store tablets at room temperature. Liquid suspension can be stored at room temperature or refrigerated.",
+      "pregnancy": "Use only if clearly needed. Category B.",
+      "breastfeeding": "Passes into breast milk. Use with caution."
+    }
+  ]
+}

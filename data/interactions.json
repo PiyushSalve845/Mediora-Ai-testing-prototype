@@ -1,0 +1,144 @@
+{
+  "interactions": [
+    {
+      "drug1": "aspirin",
+      "drug2": "ibuprofen",
+      "severity": "high",
+      "description": "Both are NSAIDs. Taking them together significantly increases the risk of stomach bleeding and ulcers. Ibuprofen may also interfere with aspirin's cardioprotective effects.",
+      "recommendation": "Avoid combination unless specifically directed by a healthcare provider. If using aspirin for heart protection, take it at least 30 minutes before ibuprofen."
+    },
+    {
+      "drug1": "aspirin",
+      "drug2": "warfarin",
+      "severity": "high",
+      "description": "Significantly increases the risk of bleeding. Aspirin inhibits platelet function while warfarin inhibits clotting factors.",
+      "recommendation": "Use combination only under close medical supervision with regular INR monitoring."
+    },
+    {
+      "drug1": "metformin",
+      "drug2": "alcohol",
+      "severity": "high",
+      "description": "Alcohol increases the risk of lactic acidosis with metformin. Can also cause low blood sugar.",
+      "recommendation": "Limit or avoid alcohol while taking metformin. Never drink on an empty stomach."
+    },
+    {
+      "drug1": "atorvastatin",
+      "drug2": "grapefruit",
+      "severity": "moderate",
+      "description": "Grapefruit juice can increase atorvastatin levels in the blood, increasing the risk of side effects including muscle problems.",
+      "recommendation": "Avoid grapefruit and grapefruit juice while taking atorvastatin."
+    },
+    {
+      "drug1": "amlodipine",
+      "drug2": "simvastatin",
+      "severity": "moderate",
+      "description": "Amlodipine can increase simvastatin levels, raising the risk of muscle problems including rhabdomyolysis.",
+      "recommendation": "Limit simvastatin dose to 20mg daily when taking with amlodipine."
+    },
+    {
+      "drug1": "omeprazole",
+      "drug2": "clopidogrel",
+      "severity": "high",
+      "description": "Omeprazole can reduce the effectiveness of clopidogrel by inhibiting its activation in the liver.",
+      "recommendation": "Consider using pantoprazole instead, or take medications 12 hours apart."
+    },
+    {
+      "drug1": "losartan",
+      "drug2": "potassium",
+      "severity": "high",
+      "description": "Losartan can increase potassium levels. Taking potassium supplements can lead to dangerously high potassium (hyperkalemia).",
+      "recommendation": "Avoid potassium supplements unless specifically prescribed. Monitor potassium levels regularly."
+    },
+    {
+      "drug1": "spironolactone",
+      "drug2": "ace_inhibitors",
+      "severity": "high",
+      "description": "Both can raise potassium levels. Combination significantly increases risk of life-threatening hyperkalemia.",
+      "recommendation": "Use with extreme caution. Regular potassium monitoring is essential."
+    },
+    {
+      "drug1": "levothyroxine",
+      "drug2": "calcium",
+      "severity": "moderate",
+      "description": "Calcium can reduce absorption of levothyroxine, making it less effective.",
+      "recommendation": "Take levothyroxine at least 4 hours apart from calcium supplements."
+    },
+    {
+      "drug1": "levothyroxine",
+      "drug2": "iron",
+      "severity": "moderate",
+      "description": "Iron can reduce absorption of levothyroxine, making it less effective.",
+      "recommendation": "Take levothyroxine at least 4 hours apart from iron supplements."
+    },
+    {
+      "drug1": "azithromycin",
+      "drug2": "warfarin",
+      "severity": "moderate",
+      "description": "Azithromycin may increase the anticoagulant effect of warfarin, increasing bleeding risk.",
+      "recommendation": "Monitor INR more frequently during and after azithromycin course."
+    },
+    {
+      "drug1": "salbutamol",
+      "drug2": "beta_blockers",
+      "severity": "high",
+      "description": "Beta blockers can block the bronchodilating effect of salbutamol and may worsen asthma or COPD.",
+      "recommendation": "Avoid non-selective beta blockers in patients with asthma. If beta blocker is needed, use cardioselective types."
+    },
+    {
+      "drug1": "cetirizine",
+      "drug2": "alcohol",
+      "severity": "moderate",
+      "description": "Alcohol may increase the sedating effects of cetirizine.",
+      "recommendation": "Avoid or limit alcohol. Do not drive or operate machinery if drowsiness occurs."
+    },
+    {
+      "drug1": "amoxicillin",
+      "drug2": "methotrexate",
+      "severity": "moderate",
+      "description": "Amoxicillin may increase methotrexate levels by reducing its elimination from the body.",
+      "recommendation": "Monitor for methotrexate toxicity. May need dose adjustment."
+    },
+    {
+      "drug1": "ibuprofen",
+      "drug2": "ace_inhibitors",
+      "severity": "moderate",
+      "description": "NSAIDs like ibuprofen can reduce the blood pressure-lowering effect of ACE inhibitors and may impair kidney function.",
+      "recommendation": "Use with caution. Monitor blood pressure and kidney function."
+    },
+    {
+      "drug1": "pantoprazole",
+      "drug2": "atazanavir",
+      "severity": "high",
+      "description": "PPIs significantly reduce absorption of atazanavir, an HIV medication, potentially leading to treatment failure.",
+      "recommendation": "Avoid concurrent use. Consider alternative acid-reducing strategies."
+    },
+    {
+      "drug1": "metformin",
+      "drug2": "contrast_dye",
+      "severity": "high",
+      "description": "Iodinated contrast dye used in imaging studies can cause kidney problems, which may increase the risk of metformin-induced lactic acidosis.",
+      "recommendation": "Stop metformin before the procedure and restart 48 hours after, once kidney function is confirmed to be normal."
+    },
+    {
+      "drug1": "paracetamol",
+      "drug2": "alcohol",
+      "severity": "high",
+      "description": "Regular alcohol use with paracetamol significantly increases the risk of liver damage.",
+      "recommendation": "Limit alcohol intake. Do not exceed recommended paracetamol doses. Seek medical attention if combining chronically."
+    },
+    {
+      "drug1": "paracetamol",
+      "drug2": "warfarin",
+      "severity": "moderate",
+      "description": "Regular use of paracetamol may increase the anticoagulant effect of warfarin.",
+      "recommendation": "Monitor INR more frequently if using paracetamol regularly."
+    },
+    {
+      "drug1": "aspirin",
+      "drug2": "methotrexate",
+      "severity": "high",
+      "description": "Aspirin can increase methotrexate levels by reducing its elimination, leading to increased toxicity.",
+      "recommendation": "Avoid combination with high-dose methotrexate. Monitor closely with low-dose methotrexate."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "adherenceHistory": [],
+  "dailyLogs": [],
+  "weeklyStats": [],
+  "overallStats": {
+    "totalDosesTaken": 0,
+    "totalDosesMissed": 0,
+    "adherencePercentage": 0,
+    "streakDays": 0
+  }
+}

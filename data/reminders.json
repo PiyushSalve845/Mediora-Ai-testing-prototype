@@ -1,0 +1,9 @@
+{
+  "reminders": [],
+  "settings": {
+    "defaultReminderAdvance": 15,
+    "defaultSnoozeTime": 10,
+    "enableNotifications": true,
+    "enableSound": true
+  }
+}
